@@ -55,13 +55,15 @@ font-weight: 400;
   color: var(--second-title-color);
 }
 
-.header-link:is(:hover, :focus) {
+.header-link .header-address:is(:hover, :focus) {
   color:#404bbf;
   }
 
 /**------------- Sectiom About---------------*/
 
-
+.about {
+  background: #2E2F42;
+}
 .about-title {
 font-weight: 700;
 font-size: 56px;
@@ -69,9 +71,9 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-background: #2E2F42;
 }
 .about-btn {
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
