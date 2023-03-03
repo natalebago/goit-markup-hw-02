@@ -46,10 +46,6 @@ color: var(--second-title-color);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--accent-color);
 }
 
@@ -82,11 +78,11 @@ font-weight: 400;
 }
 
 .header-link:is(:hover, :focus) {
-  color:var(--accent-color);
+  color:#404bbf;
   }
 
 .address-item .link:is(:hover, :focus){
-    color: var(--accent-color)
+    color:#404bbf
   }
 
 /**------------- Sectiom About---------------*/
