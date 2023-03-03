@@ -1,3 +1,131 @@
-body { 
-    background-color: tomato;
+:root {
+  --accent-color: #4D5AE5;
+  --second-title-color: #434455;
+  --main-title-color: #2E2F42;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+ /* Header */
+ .logo-web {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  
+}
+
+.logo-studio {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--main-title-color);
+  text-transform: uppercase;
+}
+
+.header-item { 
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color:var(--main-title-color);
+}
+.address-nav .link{
+  font-family: inherit;
+  font-style: normal;
+font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-title-color);
+}
+
+.header-link:is(:hover, :focus) {
+  color:var(--accent-color);
+  }
+
+.address-nav .link:is(:hover, :focus){
+    color: var(--accent-color)
+  }
+
+/* section about */
+
+.about-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+background: #2E2F42;
+}
+.about-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+background:var(--accent-color);
+position: absolute;
+}
+
+/* sections benefits */
+
+.benefits-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--main-title-color);
+}
+.benefits-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color); 
+}
+ /* HERO */
+ .hero-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--main-title-color);
+}
+.hero-list {
+}
+.list {
+}
+.hero-item {
+}
+.hero-item-title {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--main-title-color);
+}
+
+.hero-item-text {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-title-color);
 }
