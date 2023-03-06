@@ -84,8 +84,11 @@ color: var(--color-grey);
 
 .header-address{
   font-style: normal;
-  color: var(--praimary-text-color)
 }
+.header-item .list {
+color: #434455;
+}
+
 .address .link {
 font-family: 'Roboto';
 font-style: normal;
