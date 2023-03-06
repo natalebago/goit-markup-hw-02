@@ -6,7 +6,7 @@
   --footer-text-color: #e7e9fc;
   --color-grey: #2e2f42;
   --color-ocean: #404bbf;
-  --color green: #31doaa;
+  --color-green: #31doaa;
 }
 
 body {
@@ -34,10 +34,10 @@ body {
 
 .color-logo  {
 font-family: "Raleway", sans-serif;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 800;
 font-size: 18px;
-line-height: 1.17;
+line-height: 1.33;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -46,16 +46,20 @@ color: var(--accent-color);
 }
 
 .logo-titel {
-font-family: "Raleway", sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+/* font-family: "Raleway", sans-serif; */
+/* font-style: normal; */
+/* font-weight: 800; */
+/* font-size: 18px; */
+/* line-height: 1.17; */
+/* display: flex; */
+/* align-items: center; */
+/* letter-spacing: 0.03em; */
+/* text-transform: uppercase; */
 color: var(--titile-text-color);
+}
+
+.logo-footer {
+  color: #f4f4fd;
 }
 
 .header-item .link{
@@ -151,21 +155,25 @@ color: var(--titile-text-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: var(--praimary-text-color);
 }
 
 
 /**------------- Section Services---------------*/
 
-.services {
- 
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--titile-text-color);
+/* .services {
+
+} */
+
+.services-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--titile-text-color);
 }
 
 /**------------- Section Hero---------------*/
@@ -217,6 +225,7 @@ color: var(--praimary-text-color);
   text-align: center;
   letter-spacing: 0.04em;
   color: #4D5AE5;
+  cursor: pointer;
 }
 
 
@@ -224,6 +233,20 @@ color: var(--praimary-text-color);
   color: #F4F4FD;;
   background-color: #404BBF;
 } 
+
+.services-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-grey);
+}
+
+.services-bottom-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
 
 
 
