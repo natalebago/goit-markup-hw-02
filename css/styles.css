@@ -77,6 +77,9 @@ color: var(--titile-text-color);
   color:#404bbf;
   }
 
+.header-address{
+  font-style: normal;
+}
 .address {
 font-family: 'Roboto';
 font-style: normal;
