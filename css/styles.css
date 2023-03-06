@@ -86,7 +86,7 @@ color: var(--color-grey);
   color: var(--primary-text-color)
 }
 
-.list .address {
+.header-list .address {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
