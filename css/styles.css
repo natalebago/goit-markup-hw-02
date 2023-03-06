@@ -84,6 +84,7 @@ color: var(--color-grey);
 
 .header-address {
   font-style: normal;
+  color: var(--praimary-text-color)
 }
 
 .header-list {
