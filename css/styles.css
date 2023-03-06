@@ -86,10 +86,11 @@ color: var(--color-grey);
   font-style: normal;
 }
 
-.header-list {
+.header-item-list 
+{
 color: var(--praimary-text-color);
+  
 }
-
 
 .address .link {
 font-family: 'Roboto';
