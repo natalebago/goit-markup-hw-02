@@ -46,15 +46,6 @@ color: var(--accent-color);
 }
 
 .logo-titel {
-/* font-family: "Raleway", sans-serif; */
-/* font-style: normal; */
-/* font-weight: 800; */
-/* font-size: 18px; */
-/* line-height: 1.17; */
-/* display: flex; */
-/* align-items: center; */
-/* letter-spacing: 0.03em; */
-/* text-transform: uppercase; */
 color: var(--titile-text-color);
 }
 
@@ -215,7 +206,7 @@ color: var(--praimary-text-color);
 }
 
 .navigation-btn  {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -246,9 +237,8 @@ color: var(--color-grey);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: var(--praimary-text-color);
 }
-
-
 
 /**------------- Footer ---------------*/
  .footer {
