@@ -77,7 +77,7 @@ color: var(--color-grey);
   color: #404bbf ;
 }
 
-.address:is(:hover, :focus) {
+.address .link:is(:hover, :focus) {
   color:#404bbf;
   }
 
@@ -87,7 +87,7 @@ color: var(--color-grey);
 }
 
 
-.address {
+.address .link {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
