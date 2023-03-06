@@ -154,15 +154,16 @@ color: var(--titile-text-color);
 
 /**------------- Section Hero---------------*/
 
-.hero {
-}
+
 .hero-title {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--titile-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--titile-text-color);
+}
+
 
 
 .hero-item-title {
@@ -172,8 +173,8 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--titile-text-color);
-
 }
+
 .hero-item-text {
 font-weight: 400;
 font-size: 16px;
@@ -188,37 +189,34 @@ color: var(--praimary-text-color);
   background: #FFFFFF;
 }
 
-.navigation-btn .list {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
+.navigation-btn  {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4D5AE5;
+}
+
 
 .navigation-btn:is(:hover, :focus) {
   color: #F4F4FD;;
   background-color: #404BBF;
 } 
-}
-.btn {
-}
-
 
 
 
 /**------------- Footer ---------------*/
-.div .footer {
-  background-color: var(--main-title-color);
+ .footer {
+  background-color: #2e2f42;
   }
   
- 
-  }
- .div .footer-item-text {
+
+ .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
