@@ -85,8 +85,8 @@ color: var(--color-grey);
 .header-address{
   font-style: normal;
 }
-.header-item .list {
-color: #434455;
+.header-item  {
+color: var(--praimary-text-color);
 }
 
 .address .link {
