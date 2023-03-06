@@ -86,7 +86,7 @@ color: var(--color-grey);
   font-style: normal;
 }
 
-.header-item-list 
+.header-item .list 
 {
 color: var(--praimary-text-color);
   
