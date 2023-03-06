@@ -71,7 +71,6 @@ font-size: 16px;
 line-height: 1,5;
 letter-spacing: 0.02em;
 color: var(--color-grey);
-
 }
 
 .header-link:is(:hover, :focus){
@@ -87,6 +86,9 @@ color: var(--color-grey);
   color: var(--primary-text-color)
 }
 
+.header-item .list {
+color: var(--primary-text-color);
+}
 
 .address .link {
 font-family: 'Roboto';
@@ -95,7 +97,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--primary-text-color);
+color: var(--primary-text-color);
 }
 
 
