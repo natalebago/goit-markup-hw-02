@@ -81,20 +81,11 @@ color: var(--color-grey);
   color:#404bbf;
   }
 
-.header-item  .list{
+.header-item .list {
   font-style: normal;
   color: var(--primary-text-color)
 }
 
-.header-list .address {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
 
 .address {
 font-family: 'Roboto';
