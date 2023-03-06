@@ -86,7 +86,7 @@ color: var(--color-grey);
   font-style: normal;
   color: var(--praimary-text-color)
 }
-.address {
+.address .link {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
