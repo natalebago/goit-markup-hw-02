@@ -81,7 +81,7 @@ color: var(--color-grey);
   color:#404bbf;
   }
 
-.header-item .list {
+.header-address {
   font-style: normal;
   color: var(--primary-text-color)
 }
