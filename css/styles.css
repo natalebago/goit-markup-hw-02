@@ -81,13 +81,13 @@ color: var(--color-grey);
   color:#404bbf;
   }
 
-.header-item  {
+.header-item  .list{
   font-style: normal;
   color: var(--primary-text-color)
 }
 
 
-.address {
+.address .link{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
