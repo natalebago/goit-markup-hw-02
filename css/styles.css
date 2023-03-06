@@ -86,8 +86,17 @@ color: var(--color-grey);
   color: var(--primary-text-color)
 }
 
+.list .address {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
 
-.address .link{
+.address {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
