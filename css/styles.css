@@ -60,8 +60,8 @@ color: var(--titile-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
 }
+
 .header-link {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -96,6 +96,9 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
+.address {
+ color:  #434455;
+}
 
 
 /**------------- Section About---------------*/
