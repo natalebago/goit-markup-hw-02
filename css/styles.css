@@ -60,7 +60,6 @@ color: var(--titile-text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--titile-text-color);
   
 }
 .header-link {
@@ -96,6 +95,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
+
 
 
 /**------------- Section About---------------*/
