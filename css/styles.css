@@ -50,22 +50,15 @@ color: var(--titile-text-color);
 }
 
 .header-item .link{
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
 
-.header-link {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: var(--color-grey);
-}
 
 .header-link:is(:hover, :focus){
   color: var(--color-ocean) ;
