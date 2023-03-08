@@ -211,7 +211,7 @@ color: var(--primary-text-color);
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--accent-color);
+  color:  var(--accent-color);
   cursor: pointer;
 }
 
