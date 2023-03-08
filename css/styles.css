@@ -64,13 +64,9 @@ color: var(--titile-text-color);
   color: var(--color-ocean) ;
 }
 
-.header-address {
-  font-style: normal;
-  color: var(--primary-text-color)
-}
 
 
-.address.link {
+.address {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
