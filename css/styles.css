@@ -64,6 +64,14 @@ color: var(--titile-text-color);
   color: var(--color-ocean) ;
 }
 
+.header-address {
+  font-style: normal;
+  color: var(--primary-text-color)
+}
+.header-address {
+  font-style: normal;
+  color: var(--primary-text-color)
+}
 
 
 .address {
