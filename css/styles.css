@@ -74,7 +74,7 @@ color: var(--titile-text-color);
 }
 
 
-.address.link  {
+.address {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -84,7 +84,9 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
-
+.address {
+  color: var(--primary-text-color)
+}
 
 /**------------- Section About---------------*/
 .about {
