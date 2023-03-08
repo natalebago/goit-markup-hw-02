@@ -64,10 +64,6 @@ color: var(--titile-text-color);
   color: var(--color-ocean) ;
 }
 
-.address:is(:hover, :focus) {
-  color: var(--color-ocean);
-  }
-
 .header-address {
   font-style: normal;
   color: var(--primary-text-color)
@@ -87,6 +83,10 @@ color: var(--primary-text-color);
 .address {
   color: var(--primary-text-color)
 }
+
+.address:is(:hover, :focus) {
+  color: var(--color-ocean);
+  }
 
 /**------------- Section About---------------*/
 .about {
