@@ -74,7 +74,7 @@ color: var(--titile-text-color);
 }
 
 
-.address  {
+.address .link {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
